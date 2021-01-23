@@ -1,19 +1,17 @@
 .header-image {
-    background: url("https://images.unsplash.com/photo-1603483745087-6a97579fe289?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+    background: url("https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80");
     background-size:  cover !important;
     background-position: center center !important;
     background-blend-mode: soft-light;
 }
 
-.header-image-two {
-    background: url("https://images.unsplash.com/photo-1503832649500-41b247616164?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2088&q=80");
-    background-size:  cover !important;
-    background-position: center center !important;
-
+#aboutHero {
+    background-color: rgb(32, 46, 49);
 }
 
-#aboutHero {
-    background-color: rgb(219, 219, 219);
+.guideHero {
+    background-color: rgb(32, 46, 49) !;
+
 }
 
 #landingTitle {
@@ -21,6 +19,7 @@
     font-weight: 600 !important;
     font-family: 'Montserrat', sans-serif; 
     text-align: center;
+    color: rgb(32, 46, 49);
 }
 
 #landingSubtitle {
@@ -39,18 +38,32 @@
 
 
 #aboutTitle {
-    font-size: 30px;
+    font-size: 3rem;
     font-family: 'Montserrat', sans-serif; 
-    text-align: center;
     color: rgb(158, 90, 0);
+    vertical-align: 50vh;
+}
+
+#aboutParagraph {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; 
+    vertical-align: center;
 }
 
 .card, .card-header-title {
     background-color: transparent;
     border: none;
+    box-shadow: none;
 }
 
+.content {
+    color: rgb(168, 168, 168);
+}
 
+.aboutIcon {
+    font-size: 60px !important;
+    color: rgb(158, 90, 0);
+}
 
 
 #reviewstTitle {
@@ -71,7 +84,7 @@
 
 
 .footer {
-    background-color: black;
+    background-color:rgb(32, 46, 49);
     height: 200px;
     width: 100%;
 }
