@@ -1,7 +1,8 @@
 .header-image {
-    background: url("https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+    background: url("https://images.unsplash.com/photo-1603483745087-6a97579fe289?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
     background-size:  cover !important;
     background-position: center center !important;
+    background-blend-mode: soft-light;
 }
 
 .header-image-two {
@@ -11,39 +12,46 @@
 
 }
 
+#aboutHero {
+    background-color: rgb(219, 219, 219);
+}
+
 #landingTitle {
     font-size: 5rem;
-    font-weight: 700 !important;
+    font-weight: 600 !important;
     font-family: 'Montserrat', sans-serif; 
+    text-align: center;
 }
 
-#landingSubTitle {
-    font-size: 30px;
-    font-family: 'Montserrat', sans-serif; 
-
-}
-
-#howToTitle {
-    font-size: 5rem;
-    font-weight: 700 !important;
-    text-align: right;
-    font-family: 'Montserrat', sans-serif; 
-}
-
-#craftSubTitle {
+#landingSubtitle {
     font-size: 20px;
     font-family: 'Montserrat', sans-serif; 
+    text-align: center;
 
 }
+
+#landingButton {
+    margin: auto;
+    align-self: center;
+    color: antiquewhite;
+    background-color: rgb(158, 90, 0);
+}
+
 
 #aboutTitle {
-    color: black;
-    font-size: 4rem;
-    font-weight: 700 !important;
+    font-size: 30px;
     font-family: 'Montserrat', sans-serif; 
-    padding-bottom: 5px;   
-
+    text-align: center;
+    color: rgb(158, 90, 0);
 }
+
+.card, .card-header-title {
+    background-color: transparent;
+    border: none;
+}
+
+
+
 
 #reviewstTitle {
     color: white;
@@ -60,17 +68,6 @@
     font-family: 'Montserrat', sans-serif; 
 
 }
-
-hr {
-    background-color: rgb(43, 43, 43);
-    width: 35%;
-    height: 3px;
-    margin-left: auto;
-    margin-right: auto;
-    align-self: center;
-    border-radius: 50px 50px 50px;
-}
-
 
 
 .footer {
